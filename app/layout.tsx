@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title:
     "Social media, które pomagają sprzedawać gotowe inwestycje | Willa Developer",
   description:
-    "Kompleksowa obsługa Facebooka, Instagrama, YouTube, LinkedIna i X nastawiona na szybszą sprzedaż gotowych inwestycji Willa Developer.",
+    "Kompleksowa obsługa Facebooka, Instagrama, TikToka, YouTube, LinkedIna i X nastawiona na szybszą sprzedaż gotowych inwestycji Willa Developer.",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [

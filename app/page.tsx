@@ -150,11 +150,11 @@ const packages = [
     name: "Start sprzedażowy",
     price: "5 000 zł",
     description:
-      "Szybki start na Facebooku i Instagramie — tam, gdzie najłatwiej złapać uwagę osób szukających mieszkania.",
+      "Szybki start na Instagramie, Facebooku i TikToku — tam, gdzie najłatwiej złapać uwagę osób szukających mieszkania.",
     features: [
       "12 rolek miesięcznie",
       "12 pakietów relacji miesięcznie",
-      "Facebook i Instagram",
+      "Instagram, Facebook i TikTok",
       "Plan treści dla gotowych inwestycji",
       "Publikacja i sprzedażowe wezwania do kontaktu",
       "Miesięczne podsumowanie zapytań i reakcji",
@@ -170,7 +170,7 @@ const packages = [
     features: [
       "18 rolek miesięcznie",
       "Codzienne relacje przez cały miesiąc",
-      "Facebook, Instagram, YouTube, LinkedIn i X",
+      "Instagram, Facebook, TikTok, YouTube, LinkedIn i X",
       "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
       "Optymalizacja profili i publikowanych treści",
@@ -187,10 +187,9 @@ const packages = [
     features: [
       "Codzienna rolka — 30 miesięcznie",
       "Codzienny pakiet relacji — przez 30 dni",
-      "Facebook, Instagram, YouTube, LinkedIn i X",
+      "Instagram, Facebook, TikTok, YouTube, LinkedIn i X",
       "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
-      "2 dni nagraniowe na inwestycjach miesięcznie",
       "Cotygodniowy przegląd zapytań i kierunku treści",
       "Priorytetowa promocja gotowych lokali i akcji specjalnych",
     ],
@@ -295,7 +294,7 @@ export default function Home() {
             </div>
             <div className="hero-proof" aria-label="Założenia współpracy">
               <div>
-                <strong>5</strong>
+                <strong>6</strong>
                 <span>kanały z konkretną rolą</span>
               </div>
               <div>
@@ -409,9 +408,13 @@ export default function Home() {
             <div className="channel-grid">
               <article className="channel-card" data-reveal>
                 <div className="channel-topline">
-                  <div className="platform-pills" aria-label="Facebook i Instagram">
-                    <span>Facebook</span>
+                  <div
+                    className="platform-pills"
+                    aria-label="Instagram, Facebook i TikTok"
+                  >
                     <span>Instagram</span>
+                    <span>Facebook</span>
+                    <span>TikTok</span>
                   </div>
                   <span className="channel-number">01</span>
                 </div>
@@ -477,8 +480,8 @@ export default function Home() {
                   Co będziemy mówić
                 </p>
                 <h2>
-                  Nie „ładne posty”. Treści, które{" "}
-                  <em>przybliżają klienta do zakupu.</em>
+                  Treści, które przyciągają uwagę i{" "}
+                  <em>pomagają sprzedawać mieszkania.</em>
                 </h2>
                 <p>
                   Klient rzadko kupuje po jednej rolce. Dlatego budujemy serię
