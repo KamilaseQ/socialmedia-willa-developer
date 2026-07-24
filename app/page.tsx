@@ -481,7 +481,7 @@ export default function Home() {
                 </p>
                 <h2>
                   Nie „ładne posty”. Treści, które{" "}
-                  <em>przesuwają decyzję.</em>
+                  <em>przybliżają klienta do zakupu.</em>
                 </h2>
                 <p>
                   Klient rzadko kupuje po jednej rolce. Dlatego budujemy serię
