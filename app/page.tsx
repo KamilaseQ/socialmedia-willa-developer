@@ -188,12 +188,9 @@ const packages = [
       "Codzienna rolka — 30 miesięcznie",
       "Codzienny pakiet relacji — przez 30 dni",
       "Facebook, Instagram, YouTube, LinkedIn i X",
-      "16 publikacji na LinkedIn miesięcznie",
+      "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
       "2 dni nagraniowe na inwestycjach miesięcznie",
-      "Optymalizacja wszystkich kont i profili",
-      "Wymyślanie treści i regularna publikacja",
-      "Obsługa komentarzy i wiadomości w dni robocze",
       "Cotygodniowy przegląd zapytań i kierunku treści",
       "Priorytetowa promocja gotowych lokali i akcji specjalnych",
     ],
@@ -735,8 +732,7 @@ export default function Home() {
               Następny krok
             </p>
             <h2>
-              Porozmawiajmy po prostu o{" "}
-              <em>Waszych social mediach.</em>
+              Porozmawiajmy o <em>social mediach.</em>
             </h2>
             <p>
               Jesteśmy w stanie rozpocząć od zaraz, bo rozumiemy biznes
