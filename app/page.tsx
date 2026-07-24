@@ -166,14 +166,14 @@ const packages = [
     name: "Sprzedaż wielokanałowa",
     price: "9 000 zł",
     description:
-      "Stała obecność, reklamy i dwa tory komunikacji: klient mieszkaniowy oraz wizerunek wiarygodnego dewelopera.",
+      "Stała obecność i dwa tory komunikacji: klient mieszkaniowy oraz wizerunek wiarygodnego dewelopera.",
     features: [
       "18 rolek miesięcznie",
       "Codzienne relacje przez cały miesiąc",
       "Facebook, Instagram, LinkedIn i X",
       "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
-      "Prowadzenie kampanii reklamowych Meta",
+      "Optymalizacja profili i publikowanych treści",
       "Cotygodniowe rekomendacje sprzedażowe",
     ],
     cta: "Wybieram pełną obecność",
@@ -181,17 +181,20 @@ const packages = [
   },
   {
     name: "Codzienna sprzedaż",
-    price: "15 000 zł",
+    price: "12 000 zł",
     description:
       "Najmocniejszy rytm dla inwestycji, które mają szybko wejść w świadomość rynku i regularnie generować rozmowy.",
     features: [
       "Codzienna rolka — 30 miesięcznie",
       "Codzienny pakiet relacji — przez 30 dni",
       "Facebook, Instagram, LinkedIn i X",
+      "16 publikacji na LinkedIn miesięcznie",
+      "15 publikacji na X miesięcznie",
       "2 dni nagraniowe na inwestycjach miesięcznie",
-      "Kampanie Meta: uruchomienie i optymalizacja",
+      "Optymalizacja wszystkich kont i profili",
+      "Wymyślanie treści i regularna publikacja",
       "Obsługa komentarzy i wiadomości w dni robocze",
-      "Cotygodniowy przegląd zapytań i kierunku reklam",
+      "Cotygodniowy przegląd zapytań i kierunku treści",
       "Priorytetowa promocja gotowych lokali i akcji specjalnych",
     ],
     cta: "Wybieram codzienną sprzedaż",
@@ -289,7 +292,7 @@ export default function Home() {
                 </a>
                 <a className="button button-ghost" href="tel:+48501747490">
                   <Phone className="icon-sm" />
-                  Porozmawiajmy 10 minut
+                  Porozmawiajmy o social mediach
                 </a>
               </div>
             </div>
@@ -299,18 +302,14 @@ export default function Home() {
                 <span>kanały z konkretną rolą</span>
               </div>
               <div>
-                <strong>7 dni</strong>
-                <span>do gotowości startu*</span>
+                <strong>Od zaraz</strong>
+                <span>jesteśmy gotowi rozpocząć</span>
               </div>
               <div>
                 <strong>1 cel</strong>
                 <span>więcej rozmów o lokalach</span>
               </div>
             </div>
-            <p className="hero-note">
-              * Po przekazaniu dostępów, materiałów ofertowych i akceptacji
-              planu.
-            </p>
           </div>
           <a className="hero-scroll" href="#punkt-startu" aria-label="Przewiń do audytu">
             <span>Od zera do sprzedaży</span>
@@ -372,7 +371,8 @@ export default function Home() {
                   <li>
                     <Check className="icon-check" />
                     Rolki przyciągają uwagę, relacje podtrzymują decyzję, a
-                    reklamy wracają do zainteresowanych.
+                    regularne publikacje utrzymują markę w świadomości
+                    kupujących.
                   </li>
                   <li>
                     <Check className="icon-check" />
@@ -434,8 +434,8 @@ export default function Home() {
                 <ul>
                   <li>prezentacje gotowych lokali i konkretnych korzyści,</li>
                   <li>rolki o lokalizacji, standardzie i codziennym życiu,</li>
-                  <li>kampanie do osób z właściwego miasta i okolicy,</li>
-                  <li>powrót z reklamą do osób, które już okazały zainteresowanie.</li>
+                  <li>regularne publikacje dopasowane do miasta i okolicy,</li>
+                  <li>powrót do tematów, które wywołały największe zainteresowanie.</li>
                 </ul>
               </article>
 
@@ -490,10 +490,10 @@ export default function Home() {
                   sprzedaży.
                 </p>
                 <div className="launch-note">
-                  <span>Start kampanii możliwy w 7 dni roboczych</span>
+                  <span>Jesteśmy gotowi rozpocząć od zaraz</span>
                   <p>
-                    Najpierw wybieramy inwestycję z największym potencjałem
-                    szybkiej sprzedaży. Resztę planujemy wokół niej.
+                    Rozumiemy biznes deweloperski i wiemy, że każdy dzień
+                    zwłoki działa na niekorzyść gotowych inwestycji.
                   </p>
                 </div>
               </div>
@@ -570,6 +570,42 @@ export default function Home() {
               </p>
             </div>
 
+            <aside className="full-service-callout" data-reveal>
+              <div>
+                <p className="card-label">Kompleksowa obsługa social mediów</p>
+                <h3>
+                  Nie musicie wymyślać treści, nagrywać ani pilnować
+                  publikacji.
+                </h3>
+              </div>
+              <ul>
+                <li>
+                  <Check className="icon-check" />
+                  Pomysły i plan komunikacji
+                </li>
+                <li>
+                  <Check className="icon-check" />
+                  Optymalizacja kont i profili
+                </li>
+                <li>
+                  <Check className="icon-check" />
+                  Nagrania, montaż i teksty
+                </li>
+                <li>
+                  <Check className="icon-check" />
+                  Regularne postowanie
+                </li>
+                <li>
+                  <Check className="icon-check" />
+                  Obsługa komentarzy i wiadomości
+                </li>
+                <li>
+                  <Check className="icon-check" />
+                  Analiza i bieżące ulepszanie treści
+                </li>
+              </ul>
+            </aside>
+
             <div className="pricing-grid">
               {packages.map((item) => (
                 <article
@@ -606,8 +642,8 @@ export default function Home() {
             <div className="pricing-notes" data-reveal>
               <p>Wszystkie ceny są kwotami netto.</p>
               <p>
-                Budżet reklamowy Meta nie jest wliczony w cenę obsługi i jest
-                ustalany osobno do tempa sprzedaży inwestycji.
+                Możemy rozpocząć od razu po przekazaniu dostępów i ustaleniu
+                pierwszej inwestycji do komunikacji.
               </p>
             </div>
           </div>
@@ -676,9 +712,9 @@ export default function Home() {
                 </li>
               </ol>
               <p className="funnel-note">
-                Raportujemy wyniki komunikacji i reklam. Po połączeniu danych
-                z biura sprzedaży możemy oceniać także jakość zapytań,
-                spotkania i rezerwacje.
+                Raportujemy wyniki komunikacji i regularnych publikacji. Po
+                połączeniu danych z biura sprzedaży możemy oceniać także jakość
+                zapytań, spotkania i rezerwacje.
               </p>
             </div>
           </div>
@@ -699,13 +735,14 @@ export default function Home() {
               Następny krok
             </p>
             <h2>
-              Zacznijmy od 10 minut i jednej inwestycji, którą{" "}
-              <em>warto sprzedać najszybciej.</em>
+              Porozmawiajmy po prostu o{" "}
+              <em>Waszych social mediach.</em>
             </h2>
             <p>
-              Pokażemy pierwszy kierunek komunikacji, wybierzemy pakiet i
-              ustalimy termin nagrań. Bez prezentacji na godzinę — konkretnie,
-              sprzedażowo i z planem startu.
+              Jesteśmy w stanie rozpocząć od zaraz, bo rozumiemy biznes
+              deweloperski i wiemy, że każdy dzień zwłoki działa na niekorzyść
+              gotowych inwestycji. Ustalimy priorytety, pierwszy kierunek
+              komunikacji i termin nagrań.
             </p>
 
             <div className="contact-actions">
