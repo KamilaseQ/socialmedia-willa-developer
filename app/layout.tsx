@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Social media, które wspierają sprzedaż | Willa Developer",
   description:
-    "Sprzedażowa oferta prowadzenia Facebooka, Instagrama, LinkedIna i X od zera dla Willa Developer.",
+    "Sprzedażowa oferta prowadzenia Facebooka, Instagrama, YouTube, LinkedIna i X od zera dla Willa Developer.",
   openGraph: {
     title: "Social media, które wspierają sprzedaż Willa Developer",
     description:

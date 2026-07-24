@@ -170,7 +170,7 @@ const packages = [
     features: [
       "18 rolek miesięcznie",
       "Codzienne relacje przez cały miesiąc",
-      "Facebook, Instagram, LinkedIn i X",
+      "Facebook, Instagram, YouTube, LinkedIn i X",
       "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
       "Optymalizacja profili i publikowanych treści",
@@ -187,7 +187,7 @@ const packages = [
     features: [
       "Codzienna rolka — 30 miesięcznie",
       "Codzienny pakiet relacji — przez 30 dni",
-      "Facebook, Instagram, LinkedIn i X",
+      "Facebook, Instagram, YouTube, LinkedIn i X",
       "16 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
       "2 dni nagraniowe na inwestycjach miesięcznie",
@@ -298,7 +298,7 @@ export default function Home() {
             </div>
             <div className="hero-proof" aria-label="Założenia współpracy">
               <div>
-                <strong>4</strong>
+                <strong>5</strong>
                 <span>kanały z konkretną rolą</span>
               </div>
               <div>
