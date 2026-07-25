@@ -153,7 +153,7 @@ const packages = [
       "Szybki start na Instagramie, Facebooku i TikToku — tam, gdzie najłatwiej złapać uwagę osób szukających mieszkania.",
     features: [
       "12 rolek miesięcznie",
-      "12 pakietów relacji miesięcznie",
+      "12 relacji miesięcznie",
       "Instagram, Facebook i TikTok",
       "Plan treści dla gotowych inwestycji",
       "Publikacja i sprzedażowe wezwania do kontaktu",
@@ -186,7 +186,7 @@ const packages = [
       "Najmocniejszy rytm dla inwestycji, które mają szybko wejść w świadomość rynku i regularnie generować rozmowy.",
     features: [
       "Codzienna rolka — 30 miesięcznie",
-      "Codzienny pakiet relacji — przez 30 dni",
+      "30 relacji miesięcznie — codziennie przez cały miesiąc",
       "Instagram, Facebook, TikTok, YouTube, LinkedIn i X",
       "15 publikacji na LinkedIn miesięcznie",
       "15 publikacji na X miesięcznie",
@@ -508,8 +508,8 @@ export default function Home() {
                 <div className="visual-caption">
                   <span>Przykładowy kierunek rolki</span>
                   <strong>
-                    „3 powody, dla których ostatnie gotowe lokale znikną
-                    pierwsze”
+                    „3 powody, dla których warto wybrać gotowe mieszkanie już
+                    teraz”
                   </strong>
                 </div>
               </div>
@@ -661,9 +661,10 @@ export default function Home() {
                 <em>My dowozimy uwagę i rozmowy.</em>
               </h2>
               <p>
-                Zespół sprzedaży nie musi wymyślać postów ani pilnować
-                kalendarza. Potrzebujemy wiedzy o lokalach i szybkiej
-                akceptacji — resztę organizujemy.
+                Zespół sprzedaży nie musi wymyślać pomysłów na posty ani
+                pilnować kalendarza publikacji. Potrzebujemy wiedzy o lokalach
+                i szybkiej akceptacji treści — resztę organizujemy we własnym
+                zakresie.
               </p>
             </div>
 
